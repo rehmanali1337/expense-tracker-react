@@ -10,8 +10,8 @@ export const AccountsSummery = () => {
     const total = amounts.reduce((tot, item) => (tot += item), 0)
     return (
         <>
-            Current Balance
-            <h4 className="cb">${total}</h4>
+            <h2>Current Balance</h2>
+            <h2 className="cb">${total}</h2>
         </>
     )
 }
